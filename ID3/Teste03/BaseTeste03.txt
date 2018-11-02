@@ -1,0 +1,5 @@
+Alterações:
+
+Linha 5 - Esgoto (de SIM para NAO) - Pavimentacao (de I para P)
+Linha 9 - Esgosto (de SIM para NAO) - Pavimentacao (de I para A)
+Linha 10 - Esgosto (de NAO para SIM) - Pavimentacao (de A para I) 

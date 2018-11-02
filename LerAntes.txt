@@ -1,0 +1,33 @@
+﻿Rafael, o Thiago falou pra rodar 7 testes em cada algoritmo.
+
+7 no ID3 e 7 no J48.
+Ah, o C4.5 é o J.48, então não tem 3 algoritmos.
+
+
+
+Os testes são feitos da seguinte forma:
+
+
+
+1. Monta a base de treino
+
+2.Monta a base de teste com 10 itens da base de treino
+
+3.Faz o seguinte:
+
+
+
+	I. Roda a base de teste, com 10 itens da base de treino pela primeira vez...
+
+	II. A segunda vez, modifica 2 entradas da base de teste, como foco na modificação dos atributos numéricos
+
+	III.Fica mudando até fazer 5 testes...
+
+Deve realizar 2 testes com as difereças somente nos atributos binários/nominais (se tem esgoto ou não, e por aí vai)
+
+Então, você verá, no diretório de cada algoritmo, diversas bases de testes com a extesão .csv
+ 
+Você pode pegar e rodar no weka aí, inclusive.
+
+
+Beleza?

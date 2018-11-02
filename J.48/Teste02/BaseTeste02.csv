@@ -1,0 +1,11 @@
+Topografia,Utilizacao,Conservacao,Esgoto,Pavimentacao,Precom2,DistUTFPR,DistPC,Adequado
+A,R,O,SIM,P,120,27.1,25,NAO
+D,R,O,SIM,A,100,16.2,14,SIM
+D,R,R,NAO,I,290,4.0,2.0,NAO
+P,T,R,SIM,I,150,24.5,22.5,SIM
+I,R,O,NAO,I,340,1.2,0.7,NAO
+A,C,M,SIM,I,200,20.5,18.5,SIM
+D,R,M,NAO,A,200,18.5,16.5,NAO
+I,C,B,SIM,I,98,2.0,2.0,SIM
+I,C,O,NAO,A,450,1.9,0.7,NAO
+D,T,B,SIM,P,220,20.5,18.5,SIM

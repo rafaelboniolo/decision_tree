@@ -1,0 +1,4 @@
+Alterações:
+
+Linha 5 - DistUTFPR -> de 150 para 30
+Linha 9 - DistUTFPR -> de 98 para 290

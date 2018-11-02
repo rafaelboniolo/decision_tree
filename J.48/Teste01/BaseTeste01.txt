@@ -1,0 +1,2 @@
+ Essa base é igual a base de treino, os itens são os da linha 2 até a linha 11.
+Totalizando 10 itens.

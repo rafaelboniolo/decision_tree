@@ -1,0 +1,7 @@
+Alterações:
+
+
+Linha 5 - Utilizacao (de T para C) - Precom2 (de 150 para 200)
+Linha 6 - Utilizacao (de R para T) - Precom2 (de 340 para 120)
+Linha 7 - Utilizacao (de C para R) - Precom2 (de 200 para 360)
+

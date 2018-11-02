@@ -1,0 +1,60 @@
+ === Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Base-Treino
+Instances:    30
+Attributes:   9
+              Topografia
+              Utilizacao
+              Conservacao
+              Esgoto
+              Pavimentacao
+              Precom2
+              DistUTFPR
+              DistPC
+              Adequado
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Utilizacao = R
+|   Precom2 <= 115: SIM (2.0)
+|   Precom2 > 115: NAO (14.0/1.0)
+Utilizacao = T: SIM (10.0/2.0)
+Utilizacao = C: SIM (4.0/1.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	6
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          24               80      %
+Incorrectly Classified Instances         6               20      %
+Kappa statistic                          0.5982
+Mean absolute error                      0.2954
+Root mean squared error                  0.4352
+Relative absolute error                 58.6836 %
+Root relative squared error             86.24   %
+Total Number of Instances               30     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.813    0.214    0.813      0.813    0.813      0.598    0.768     0.785     NAO
+                 0.786    0.188    0.786      0.786    0.786      0.598    0.768     0.663     SIM
+Weighted Avg.    0.800    0.202    0.800      0.800    0.800      0.598    0.768     0.728     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13  3 |  a = NAO
+  3 11 |  b = SIM
+

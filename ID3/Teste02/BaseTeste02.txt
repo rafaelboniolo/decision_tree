@@ -1,0 +1,5 @@
+Alterações:
+
+Linha 4 - Conservacao (de R para O)
+Linha 6 - Conservacao (de O para M)
+Linha 9 - Conservacao (de B para M)

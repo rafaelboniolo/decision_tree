@@ -1,0 +1,4 @@
+Alterações:
+
+Linha 7 - DistPC -> de 18.5 para 14.3
+Linha 8 - DistPC -> de 16.5 para 3.0

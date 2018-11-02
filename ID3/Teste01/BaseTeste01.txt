@@ -1,0 +1,5 @@
+Alterações:
+
+Linha 3 - Topografia (de D para A)
+Linha 6 - Topografia (I para D)
+Linha 11 - Topografia (D para I)

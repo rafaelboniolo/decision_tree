@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.Id3 
+Relation:     Base-Treino-ID3
+Instances:    30
+Attributes:   9
+              Topografia
+              Utilizacao
+              Conservacao
+              Esgoto
+              Pavimentacao
+              Precom2
+              DistUTFPR
+              DistPC
+              Adequado
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Id3
+
+
+Utilizacao = R
+|  Pavimentacao = P: NAO
+|  Pavimentacao = A
+|  |  Conservacao = O: SIM
+|  |  Conservacao = R: NAO
+|  |  Conservacao = M: NAO
+|  |  Conservacao = B: null
+|  Pavimentacao = I
+|  |  Topografia = A: SIM
+|  |  Topografia = D: NAO
+|  |  Topografia = P: NAO
+|  |  Topografia = I: NAO
+Utilizacao = T
+|  Conservacao = O: SIM
+|  Conservacao = R: SIM
+|  Conservacao = M
+|  |  Topografia = A: SIM
+|  |  Topografia = D: null
+|  |  Topografia = P
+|  |  |  Pavimentacao = P: SIM
+|  |  |  Pavimentacao = A: NAO
+|  |  |  Pavimentacao = I: null
+|  |  Topografia = I: NAO
+|  Conservacao = B: SIM
+Utilizacao = C
+|  Topografia = A: SIM
+|  Topografia = D: null
+|  Topografia = P: null
+|  Topografia = I
+|  |  Conservacao = O: NAO
+|  |  Conservacao = R: null
+|  |  Conservacao = M: null
+|  |  Conservacao = B: SIM
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          19               63.3333 %
+Incorrectly Classified Instances         8               26.6667 %
+Kappa statistic                          0.4033
+Mean absolute error                      0.2963
+Root mean squared error                  0.5443
+Relative absolute error                 65.2602 %
+Root relative squared error            113.4413 %
+UnClassified Instances                   3               10      %
+Total Number of Instances               30     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.786    0.385    0.688      0.786    0.733      0.408    0.665     0.639     NAO
+                 0.615    0.214    0.727      0.615    0.667      0.408    0.692     0.616     SIM
+Weighted Avg.    0.704    0.303    0.707      0.704    0.701      0.408    0.678     0.628     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 11  3 |  a = NAO
+  5  8 |  b = SIM
+
+ 
