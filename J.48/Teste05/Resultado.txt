@@ -1,0 +1,17 @@
+Testes: 10
+Acertos: 7
+Erros: 3
+Precisão do teste: 70%
+Entrada: Linha 2 a linha 11
+Modificações: Linha 2 - Precom (de 120 para 80) - DistUTFPR (de 27.1 para 18.0) - DistPC (de 25 para 10)
+Linha 4 - Precom (de 140 para 100) - DistUTFPR ( de 4.0 para 12.5) - DistPC (de 2.0 para 9.0)
+Linha 5 - Precom (de 150 para 100)
+Linha 8 - DistUTFPR (de 18.5 para 9.6)
+Linha 9 - DistPC de 2.0 para 25.0)
+
+Precisão para NÃO: 100%
+Precisão para SIM: 62,5%
+Matriz de confusão:
+a b
+2 3 | a = NAO
+0 5 | b = SIM

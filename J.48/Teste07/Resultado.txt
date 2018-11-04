@@ -1,0 +1,19 @@
+Testes: 10
+Acertos: 9
+Erros: 1
+Precisão do teste: 90%
+Entrada: Linha 2 a linha 11
+Modificações: Alterações:
+
+
+Linha 5 - Utilizacao (de T para C) - Precom2 (de 150 para 200)
+Linha 6 - Utilizacao (de R para T) - Precom2 (de 340 para 120)
+Linha 7 - Utilizacao (de C para R) - Precom2 (de 200 para 360)
+
+
+Precisão para NÃO: 100%
+Precisão para SIM: 83,3%
+Matriz de confusão:
+a b
+4 1 | a = NAO
+0 5 | b = SIM

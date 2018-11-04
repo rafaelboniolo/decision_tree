@@ -1,0 +1,15 @@
+Testes: 10
+Acertos: 9
+Erros: 1
+Precisão do teste: 90%
+Entrada: Linha 2 a linha 11
+Modificações:
+Precisão para NÃO: 100%
+Precisão para SIM: 83,3%
+Matriz de confusão:
+a b
+4 1 | a = NAO
+ 
+0 5 | b = SIM
+
+

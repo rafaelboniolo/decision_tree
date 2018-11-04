@@ -1,0 +1,22 @@
+Testes: 10
+Acertos: 9
+Erros: 1
+Precisão do teste: 90%
+Entrada: Linha 2 a linha 11
+Modificações: 
+
+
+Linha 4 - Precom2 -> de 140 para 290 
+Linha 8 - Precom2 -> de 135 para 200
+
+
+
+Precisão para NÃO: 100%
+Precisão para SIM: 83,3%
+Matriz de confusão:
+a b
+4 1 | a = NAO
+ 
+0 5 | b = SIM
+
+

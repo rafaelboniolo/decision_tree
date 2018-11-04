@@ -1,0 +1,18 @@
+Testes: 10
+Acertos: 7
+Erros: 3
+Precisão do teste: 70%
+Entrada: Linha 2 a linha 11
+Modificações: Alterações:
+
+Linha 4 - Conservacao ( de R para O) - Pavimentacao ( I para A )
+Linha 7 - Conservacao ( de M para O) - Adequado ( de SIM para NAO )
+Linha 11 - Topografia ( de D para A) - Adequado ( de SIM para NAO ) - Pavimentacao ( de P para A )
+
+
+Precisão para NÃO: 100%
+Precisão para SIM: 50%
+Matriz de confusão:
+a b
+4 3 | a = NAO
+0 3 | b = SIM
