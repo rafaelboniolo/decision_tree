@@ -1,0 +1,15 @@
+Testes: 10
+Acertos: 10
+Erros: 0
+Precis�o do teste: 100%
+Entrada: Linha 2 a linha 11
+Modifica��es:Linha 3 - Topografia (de D para A) Linha 6 - Topografia (I para D) Linha 11 - Topografia (D para I)
+Precis�o para N�O: 100%
+Precis�o para SIM: 100%
+Matriz de confus�o:
+a b
+5 0 | a = NAO
+ 
+0 5 | b = SIM
+
+

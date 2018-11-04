@@ -1,0 +1,15 @@
+Testes: 10
+Acertos: 10
+Erros: 0
+Precis�o do teste: 100%
+Entrada: Linha 2 a linha 11
+Modifica��es:Linha 4 - Conservacao (de R para O) Linha 6 - Conservacao (de O para M) Linha 9 - Conservacao (de B para M)
+Precis�o para N�O: 100%
+Precis�o para SIM: 100%
+Matriz de confus�o:
+a b
+5 0 | a = NAO
+ 
+0 5 | b = SIM
+
+
